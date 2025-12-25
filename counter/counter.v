@@ -16,5 +16,5 @@ always @(posedge clk) begin
     end
 end
 
-assign led = ledCounter;
+assign led = ~ledCounter;
 endmodule
